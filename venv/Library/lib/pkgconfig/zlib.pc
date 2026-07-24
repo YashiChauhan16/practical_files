@@ -1,0 +1,13 @@
+prefix=D:/EDA_Projects/venv/Library
+exec_prefix=D:/EDA_Projects/venv/Library
+libdir=D:/EDA_Projects/venv/Library/lib
+sharedlibdir=D:/EDA_Projects/venv/Library/lib
+includedir=D:/EDA_Projects/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
