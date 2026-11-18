@@ -1,0 +1,69 @@
+# 📊 Regional Sales Analysis Dashboard | Power BI
+
+## 📌 Project Overview
+
+This project focuses on analysing sales performance across different regions using Microsoft Power BI.
+
+The objective is to transform raw sales data into meaningful business insights through data cleaning, data transformation, DAX calculations and interactive visualisations.
+
+The project explores overall sales performance and regional contributions to understand how different regions contribute to the company's total revenue.
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI Desktop** – Data visualisation and report development.
+- **Power Query Editor** – Data cleaning and transformation.
+- **DAX (Data Analysis Expressions)** – Creating calculated measures and performing business calculations.
+- **Microsoft Excel** – Dataset preparation and storage.
+
+## 📂 Dataset Description
+The dataset contains sales transaction records with the following columns:
+
+| Column | Description |
+|---|---|
+| Order ID | Unique order identifier |
+| Order Date | Date of the transaction |
+| Customer Name | Name of the customer |
+| Product | Product purchased |
+| Category | Product category |
+| Region | Geographical sales region |
+| Sales | Sales amount |
+| Profit | Profit generated |
+| Quantity | Number of units sold |
+
+The dataset contains more than 1,000 records and intentionally includes data-quality issues for practical data-cleaning exercises.
+
+## 🧹 Data Cleaning & Transformation
+
+Data preparation was performed using Power Query.
+
+Key operations included:
+
+- Identifying and handling missing values.
+- Removing duplicate records.
+- Correcting data types.
+- Identifying and handling data conversion errors.
+- Standardising text using Trim, Clean and Capitalize Each Word.
+- Splitting and merging columns.
+- Creating conditional columns.
+- Creating custom columns.
+
+## 🎯 Project Objectives
+
+- Calculate overall sales performance.
+- Analyse sales across different geographical regions.
+- Compare regional sales contributions.
+- Identify high-performing and low-performing regions.
+- Understand how DAX measures help in business analysis.
+- Present sales information through clear visualisations.
+
+## 💡 Key Learnings
+
+Through this project, I gained practical experience in:
+
+- Data cleaning and transformation using Power Query.
+- Understanding data types and handling data-quality issues.
+- Creating DAX measures.
+- Using CALCULATE() and aggregation functions.
+- Developing KPI cards.
+- Performing region-wise sales analysis.
+- Converting raw data into meaningful business information.
